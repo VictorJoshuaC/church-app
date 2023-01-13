@@ -114,12 +114,6 @@ header .overlay {
     padding: 5%;
     align-content: center;
 }
-.block-11{
-   /* color: #382735; */
-}
-.block-2{
-    /* background-color: #324376; */
-}
 
 .row {
     display: -ms-flexbox;
@@ -141,6 +135,7 @@ header .overlay {
     text-decoration: none;
     color: #382735;
  }
+ 
 #services{ 
     overflow: hidden;
 }
@@ -202,3 +197,119 @@ hr :hover{
   overflow: hidden;
   margin: 0 auto;
 }
+
+
+
+/* forth section */
+/* The end frame of the homepage */
+.ending-section {
+    height: auto;
+    overflow: hidden;
+    
+}
+.ending-section .col_1 {
+   border-right: 1px solid green;
+}
+.cat {
+    margin-left: 17rem;
+}
+
+.divison .row {
+    margin-left: 5rem;
+}
+#hr {
+    display:none; color: green; margin-top: 8rem; 
+}
+
+
+
+/* website footer */
+ul,li {
+    z-index: 2;
+    position: relative;
+   text-decoration: none;
+   list-style: none;
+}
+#mean{
+    /* background-image: url("images/3.jpg ");
+    background-position: center;
+    background-size: cover; */
+    position: relative;
+    height: auto;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+.footer_img img {
+    z-index: 4;
+    position: relative;
+    width: 50%; height:75%;
+    /* margin-left: 26%; */
+}
+#svg {
+    position: relative;
+    width: 10%;
+    height: auto;
+    padding: auto;
+    color: green;
+    display: inline-block;
+    z-index: 2;
+}
+#mean .overlay {
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+#mean .img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.rev{
+    position: relative;
+    z-index: 2;
+}
+.revv{
+    position: relative;
+    z-index: 2;
+    background-image: -webkit-linear-gradient(left, rgba(255,0,0,0), rgb(0, 110, 55));
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 110, 55));
+}
+.block-col_43 a{
+    text-decoration: none;
+    color: white
+}
+.copyright{
+    overflow:hidden;
+    width: 100%;;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 70px;
+    color: rgb(182, 181, 181);
+    z-index: 2;
+}
+.copyright span Label {
+    color: rgb(182, 181, 181);
+}
+
+
+
+
+
+
+
+

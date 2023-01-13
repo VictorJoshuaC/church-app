@@ -90,6 +90,8 @@
         font-size: 13px;
 
     }
+
+
 }
 
 @media screen and (max-width:515px) {
@@ -208,5 +210,29 @@
     }
     .block-col_4{
         margin-right:2rem ;
+    }
+}
+
+
+/* home page ending section */
+@media screen and (max-width:767px) {
+    .ending-section .col_1 {
+        border-right: 0px solid black;
+        text-align: center;
+     }
+     
+     .divison .row {
+         margin-left: 0rem;
+         text-align: center;
+     }
+     .divison .row .col-md-4{
+        margin-left: 0;
+        text-align: center;
+    }
+    .cat {
+        margin-left: 7rem;
+    }
+    #hr {
+        display: block;
     }
 }
